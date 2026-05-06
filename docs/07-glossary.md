@@ -14,7 +14,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Risk | Potential harm when a threat can exploit a weakness |
 | Security control | A safeguard used to reduce risk |
 | Security framework | A structured model for managing security work |
-| Security posture | The organization’s ability to defend, detect, and respond |
+| Security posture | The organization's ability to defend, detect, and respond |
 | Threat | Any event or condition that could cause harm |
 | Threat actor | A person or group that creates security risk |
 | Vulnerability | A weakness that can be exploited |

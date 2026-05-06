@@ -83,6 +83,16 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Turn each Course 5 worksheet into a short artifact: scenario, evidence, issue, recommendation, and justification.
 - Revisit the Botium Toys case study after each theory section.
 
+## Beginner shortcut
+
+If you are new to cybersecurity, use this simple order:
+
+1. Learn the core language in foundations, threats, and controls.
+2. Practice analyst tools with networking, Linux, and SQL.
+3. Practice risk thinking with asset inventories and risk registers.
+4. Use the Course 5 activity chapter to write portfolio-style answers.
+5. Review the glossary whenever a term slows you down.
+
 ## Fast checkpoints
 
 - Can you explain the CIA triad without reading?

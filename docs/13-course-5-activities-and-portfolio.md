@@ -4,11 +4,25 @@ Course 5 turns many cybersecurity ideas into work products: asset inventories, r
 
 The goal is not to memorize one perfect answer. The goal is to learn a repeatable analyst method:
 
+![Course 5 worksheet to portfolio workflow](images/course-5-portfolio-workflow.svg)
+
 1. Understand the scenario.
 2. Identify the asset or data at risk.
 3. Find the weakness, missing control, or unsafe behavior.
 4. Recommend a control that directly reduces the risk.
 5. Explain why the recommendation helps.
+
+If a worksheet feels confusing, reduce it to one sentence:
+
+```text
+Because [evidence] shows [issue], I recommend [control] to reduce [risk or impact].
+```
+
+Example:
+
+```text
+Because the payroll event IP address matches a former contractor account, I recommend disabling that account and removing unnecessary admin rights to reduce unauthorized payroll changes.
+```
 
 ## Portfolio answer formula
 
@@ -23,6 +37,16 @@ Use this structure whenever a worksheet asks for notes, issues, recommendations,
 | Justification | Why the control reduces risk | "This limits unauthorized access and reduces the blast radius if credentials are misused." |
 
 This format makes answers clear, defensible, and easy for another person to review.
+
+## Common beginner mistakes
+
+| Mistake | Why it weakens the answer | Better approach |
+| --- | --- | --- |
+| Repeating the scenario without analysis | It does not show what risk you found | Point to a specific field, account, folder, file, asset, or behavior |
+| Naming a control without justification | The reader cannot see why the control fits | Explain how the control reduces likelihood or impact |
+| Confusing threat and vulnerability | The recommendation may not match the real weakness | Threat is what can happen; vulnerability is what makes it possible |
+| Recommending only training | Some risks need technical or process controls too | Combine technical, operational, and managerial controls when useful |
+| Ignoring business impact | The finding may feel theoretical | Explain how the issue affects data, funds, customers, operations, or compliance |
 
 ## Home asset inventory activity
 
@@ -304,6 +328,19 @@ For each Course 5 activity, save a short summary that shows your process.
 | Data leak worksheet | Issue, review, recommendation, justification | You can connect incidents to least privilege and NIST controls |
 | Access control worksheet | Evidence-based account review | You can detect stale accounts and excessive privileges |
 | PASTA worksheet | Threat model with DFD and attack tree | You can connect business objectives to attack paths and controls |
+
+## Portfolio quality checklist
+
+Before publishing or submitting a Course 5 artifact, check that it has:
+
+- A clear title that names the activity.
+- One short scenario summary.
+- Evidence from the worksheet, log, table, or diagram.
+- A specific issue, not just "this is risky."
+- At least one recommended control.
+- A short justification that connects the control to risk reduction.
+- Plain language that a non-specialist can understand.
+- No private credentials, personal data, or unnecessary raw course files.
 
 ## Quick self-test
 
