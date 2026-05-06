@@ -24,6 +24,17 @@ Cybersecurity is the practice of protecting systems, networks, devices, people, 
 | Risk | The potential impact when a threat meets a vulnerability |
 | Security posture | How well the organization can defend and respond |
 
+### Data concepts
+
+| Term | Plain meaning | Analyst question |
+| --- | --- | --- |
+| PII | Information that can identify or locate a person | Could this identify someone if exposed? |
+| SPII | Sensitive PII with stricter handling needs | Should access be need-to-know only? |
+| PHI | Health information protected by law or policy | Does HIPAA or another privacy rule apply? |
+| Data at rest | Stored data | Is it encrypted and access-controlled? |
+| Data in transit | Data moving between systems | Is the connection protected? |
+| Data in use | Data being accessed or processed | Is the user or process authorized right now? |
+
 ## Important operating concepts
 
 - Compliance means following required laws, standards, and internal policies.
@@ -32,6 +43,20 @@ Cybersecurity is the practice of protecting systems, networks, devices, people, 
 - Internal threats can be malicious or accidental.
 - Network security focuses on protecting infrastructure, data flows, and connected systems.
 - Cloud security focuses on secure configuration, access control, and protection of hosted assets.
+- Information privacy focuses on how personal information is collected, used, shared, and protected.
+- Information security focuses on protecting data in all states from unauthorized access, change, or loss.
+
+## Data lifecycle
+
+```mermaid
+flowchart LR
+    A["Collect"] --> B["Store"]
+    B --> C["Use"]
+    C --> D["Archive"]
+    D --> E["Destroy"]
+```
+
+Security controls should follow data through every stage. For example, access controls protect collection and use, encryption protects storage and transit, retention rules guide archiving, and disposal procedures protect destruction.
 
 ## Analyst skill model
 

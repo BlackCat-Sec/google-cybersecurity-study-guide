@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" role="img" aria-labelledby="title desc">
+  <title id="title">Three by three risk matrix</title>
+  <desc id="desc">A likelihood by severity risk matrix that multiplies likelihood and severity to produce risk priority scores.</desc>
+  <rect width="780" height="420" fill="#fbfcfe"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">Risk matrix: likelihood x severity</text>
+  <text x="42" y="82" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Use the score to prioritize, then add business context before recommending a control.</text>
+  <g transform="translate(170 120)" font-family="Arial, sans-serif" font-size="16">
+    <text x="-90" y="105" transform="rotate(-90 -90 105)" font-weight="700" fill="#172033">Likelihood</text>
+    <text x="210" y="260" text-anchor="middle" font-weight="700" fill="#172033">Severity</text>
+    <text x="-18" y="38" text-anchor="end" fill="#172033">Certain 3</text>
+    <text x="-18" y="108" text-anchor="end" fill="#172033">Likely 2</text>
+    <text x="-18" y="178" text-anchor="end" fill="#172033">Rare 1</text>
+    <text x="70" y="-18" text-anchor="middle" fill="#172033">Low 1</text>
+    <text x="210" y="-18" text-anchor="middle" fill="#172033">Moderate 2</text>
+    <text x="350" y="-18" text-anchor="middle" fill="#172033">Catastrophic 3</text>
+    <g font-size="22" font-weight="700" text-anchor="middle">
+      <rect x="0" y="0" width="140" height="70" fill="#fff3bf" stroke="#ffffff"/>
+      <text x="70" y="43" fill="#7a4a00">3</text>
+      <rect x="140" y="0" width="140" height="70" fill="#ffa94d" stroke="#ffffff"/>
+      <text x="210" y="43" fill="#5c2d00">6</text>
+      <rect x="280" y="0" width="140" height="70" fill="#fa5252" stroke="#ffffff"/>
+      <text x="350" y="43" fill="#ffffff">9</text>
+      <rect x="0" y="70" width="140" height="70" fill="#d8f5a2" stroke="#ffffff"/>
+      <text x="70" y="113" fill="#315700">2</text>
+      <rect x="140" y="70" width="140" height="70" fill="#fff3bf" stroke="#ffffff"/>
+      <text x="210" y="113" fill="#7a4a00">4</text>
+      <rect x="280" y="70" width="140" height="70" fill="#ffa94d" stroke="#ffffff"/>
+      <text x="350" y="113" fill="#5c2d00">6</text>
+      <rect x="0" y="140" width="140" height="70" fill="#b2f2bb" stroke="#ffffff"/>
+      <text x="70" y="183" fill="#1b5e20">1</text>
+      <rect x="140" y="140" width="140" height="70" fill="#d8f5a2" stroke="#ffffff"/>
+      <text x="210" y="183" fill="#315700">2</text>
+      <rect x="280" y="140" width="140" height="70" fill="#fff3bf" stroke="#ffffff"/>
+      <text x="350" y="183" fill="#7a4a00">3</text>
+    </g>
+  </g>
+</svg>

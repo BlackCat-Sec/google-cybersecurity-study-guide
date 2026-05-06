@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330" role="img" aria-labelledby="title desc">
+  <title id="title">SQL investigation workflow</title>
+  <desc id="desc">A workflow showing how a security analyst moves from a question to selected tables, filtered queries, joined evidence, and documented findings.</desc>
+  <rect width="980" height="330" fill="#f8fafc"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">SQL for security analysis</text>
+  <text x="42" y="82" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Start with the investigation question, then narrow the data until the result is small enough to validate and explain.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#49566b"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(42 126)">
+      <rect width="150" height="86" rx="8" fill="#e7f5ff" stroke="#1c7ed6"/>
+      <text x="75" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#184b7a">Question</text>
+      <text x="75" y="60" text-anchor="middle" font-size="13" fill="#184b7a">What happened?</text>
+    </g>
+    <line x1="202" y1="169" x2="258" y2="169" stroke="#49566b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(268 126)">
+      <rect width="150" height="86" rx="8" fill="#ebfbee" stroke="#2f9e44"/>
+      <text x="75" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#1b5e20">Select data</text>
+      <text x="75" y="60" text-anchor="middle" font-size="13" fill="#1b5e20">SELECT + FROM</text>
+    </g>
+    <line x1="428" y1="169" x2="484" y2="169" stroke="#49566b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(494 126)">
+      <rect width="150" height="86" rx="8" fill="#fff3bf" stroke="#f08c00"/>
+      <text x="75" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#8a4b00">Filter</text>
+      <text x="75" y="60" text-anchor="middle" font-size="13" fill="#8a4b00">WHERE + LIKE</text>
+    </g>
+    <line x1="654" y1="169" x2="710" y2="169" stroke="#49566b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(720 126)">
+      <rect width="150" height="86" rx="8" fill="#f3e8ff" stroke="#8b5cf6"/>
+      <text x="75" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#5b21b6">Join</text>
+      <text x="75" y="60" text-anchor="middle" font-size="13" fill="#5b21b6">Connect tables</text>
+    </g>
+    <line x1="795" y1="222" x2="795" y2="260" stroke="#49566b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(645 268)">
+      <rect width="300" height="44" rx="8" fill="#ffe3e3" stroke="#e03131"/>
+      <text x="150" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#8f1d1d">Validate result and document evidence</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Asset classification levels</title>
+  <desc id="desc">A pyramid showing public, internal-only, confidential, and restricted asset classification levels.</desc>
+  <rect width="900" height="360" fill="#fbfcfe"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">Asset classification ladder</text>
+  <text x="42" y="82" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Higher classification means fewer people should access the asset and stronger controls should protect it.</text>
+  <g transform="translate(160 120)" font-family="Arial, sans-serif">
+    <polygon points="250,0 500,180 0,180" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+    <line x1="84" y1="120" x2="416" y2="120" stroke="#4f46e5" stroke-width="2"/>
+    <line x1="140" y1="80" x2="360" y2="80" stroke="#4f46e5" stroke-width="2"/>
+    <line x1="195" y1="40" x2="305" y2="40" stroke="#4f46e5" stroke-width="2"/>
+    <text x="250" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#312e81">Restricted</text>
+    <text x="250" y="66" text-anchor="middle" font-size="15" font-weight="700" fill="#312e81">Confidential</text>
+    <text x="250" y="107" text-anchor="middle" font-size="15" font-weight="700" fill="#312e81">Internal-only</text>
+    <text x="250" y="153" text-anchor="middle" font-size="15" font-weight="700" fill="#312e81">Public</text>
+  </g>
+  <g transform="translate(650 124)" font-family="Arial, sans-serif" font-size="14" fill="#172033">
+    <text x="0" y="0" font-weight="700">Ask before classifying</text>
+    <text x="0" y="32">What is the asset?</text>
+    <text x="0" y="58">Where is it stored or used?</text>
+    <text x="0" y="84">Who owns it?</text>
+    <text x="0" y="110">Who needs access?</text>
+    <text x="0" y="136">What happens if it leaks?</text>
+  </g>
+</svg>
