@@ -13,6 +13,7 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 - Linux command-line basics and file permissions
 - SQL querying for structured security investigations
 - Asset inventories, risk registers, and threat modeling
+- Course 5 activity practice: home asset inventories, USB risk analysis, data leak worksheets, access control reviews, and PASTA artifacts
 - The Botium Toys audit case study
 - A curated glossary and a practical study plan
 
@@ -21,9 +22,10 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 1. Start with [docs/01-foundations.md](docs/01-foundations.md).
 2. Move through the topics in order.
 3. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
-4. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
-5. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
-6. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
+4. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
+5. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
+6. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
+7. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
 
 ## Study map
 
@@ -36,8 +38,9 @@ flowchart LR
     E --> F["Networking Practice"]
     F --> G["Linux and SQL Practice"]
     G --> H["Assets, Risk, and Threat Modeling"]
-    H --> I["Botium Toys Case Study"]
-    I --> J["Glossary and Revision"]
+    H --> I["Course 5 Activity Practice"]
+    I --> J["Botium Toys Case Study"]
+    J --> K["Glossary and Revision"]
 ```
 
 ## Repository layout
@@ -58,6 +61,7 @@ flowchart LR
 |   |-- 10-sql-for-security-analysis.md
 |   |-- 11-assets-risk-and-threat-modeling.md
 |   |-- 12-networking-and-network-security.md
+|   |-- 13-course-5-activities-and-portfolio.md
 |   |-- images/
 |   `-- references.md
 `-- sources/
@@ -76,6 +80,7 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Practice reading network alerts by source, destination, port, protocol, and direction.
 - Practice Linux permission interpretation and SQL filters with the worked examples.
 - Treat every asset, vulnerability, and control as part of a risk story.
+- Turn each Course 5 worksheet into a short artifact: scenario, evidence, issue, recommendation, and justification.
 - Revisit the Botium Toys case study after each theory section.
 
 ## Fast checkpoints
@@ -89,6 +94,8 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Can you read a Linux permission string like `-rw-rw-r--`?
 - Can you write a basic SQL query with `SELECT`, `FROM`, `WHERE`, and `ORDER BY`?
 - Can you build a simple risk register using likelihood and severity?
+- Can you explain why a former contractor account with admin access is a security issue?
+- Can you map a data leak recommendation to least privilege and NIST CSF Protect?
 
 ## Official references
 

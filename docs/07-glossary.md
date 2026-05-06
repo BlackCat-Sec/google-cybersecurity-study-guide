@@ -26,8 +26,10 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Authentication | Verifying who someone is |
 | Authorization | Granting approved access to resources |
 | Biometrics | Physical traits used to help verify identity |
+| Deprovisioning | Removing or disabling access when a user, contractor, or service no longer needs it |
 | Least privilege | Giving only the access needed to do the job |
 | Password attack | An attempt to gain access through password compromise |
+| RBAC | Role-based access control, where permissions are assigned through roles instead of one user at a time |
 
 ## Attacks and adversaries
 
@@ -39,6 +41,8 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Malware | Software designed to harm, spy on, or extort |
 | Phishing | Digital deception used to steal data or trigger unsafe action |
 | Physical attack | An attack that affects physical as well as digital environments |
+| Removable media | Portable storage such as USB drives or external hard drives |
+| Session hijacking | Taking over or misusing a valid user session |
 | Social engineering | Exploiting human trust or behavior to gain access |
 | Spear phishing | Highly targeted phishing against a person or group |
 | Supply-chain attack | Compromising a vendor, dependency, or delivery path |
@@ -187,6 +191,9 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Attack surface | All potential places where an attacker could try to exploit a system |
 | Attack tree | Diagram that maps possible attack paths to an asset |
 | Attack vector | Path or method used by an attacker |
+| Data breach | Confirmed unauthorized access, disclosure, or compromise of information |
+| Data leak | Unintended exposure of information to someone who should not have access |
+| Data loss prevention | Tools or processes that detect, block, or alert on sensitive data leaving approved locations |
 | CISA KEV catalog | Known Exploited Vulnerabilities catalog maintained by CISA |
 | CVE | Public identifier for a known vulnerability |
 | CVSS | System for scoring vulnerability severity |
@@ -204,6 +211,8 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | MFA | Authentication that requires at least two forms of verification |
 | PASTA | Risk-centric threat modeling framework |
 | Privilege creep | Access accumulation beyond what a user currently needs |
+| Access review | Periodic check that user permissions still match job duties and business need |
+| Account change audit | Review of account creations, permission changes, disabling, and deletion |
 | Security assessment | Review of current resilience against threats |
 | Security audit | Review of controls, policies, and procedures against expectations |
 | Security hardening | Strengthening a system to reduce vulnerability and attack surface |

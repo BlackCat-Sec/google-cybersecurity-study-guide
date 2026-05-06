@@ -148,6 +148,8 @@ Example risk register:
 | Funds | Theft | Physical safe is left unlocked | 1 | 3 | 3 | Lock procedure, access logs, camera review |
 | Funds | Supply chain disruption | Vendor delivery delays due to natural disaster | 1 | 2 | 2 | Alternate suppliers and continuity planning |
 
+For a fuller worksheet-style walkthrough using the Course 5 bank scenario, see [13-course-5-activities-and-portfolio.md](13-course-5-activities-and-portfolio.md).
+
 ## Risk assessment workflow
 
 ```mermaid
@@ -306,6 +308,8 @@ flowchart LR
 | VII | Risk analysis and impact | Which controls reduce the risk enough? |
 
 Example: In a shopping application, a database search feature may introduce SQL injection risk. A useful recommendation might include prepared statements, input validation, least privilege database accounts, application logging, and incident response procedures.
+
+For the sneaker-application PASTA worksheet, data flow diagram, and attack tree examples, see [13-course-5-activities-and-portfolio.md](13-course-5-activities-and-portfolio.md).
 
 ## What to memorize
 

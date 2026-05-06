@@ -22,6 +22,7 @@
 - Read `04-controls-frameworks-compliance.md`
 - Read `06-botium-toys-case-study.md`
 - Read `11-assets-risk-and-threat-modeling.md`
+- Read `13-course-5-activities-and-portfolio.md`
 - Practice mapping controls to business risk
 
 ### Pass 4: Memorize what matters
@@ -59,7 +60,20 @@
 | Day 11 | Linux permissions | Decode `-rw-rw-r--` and write `chmod` changes for least privilege |
 | Day 12 | SQL basics | Write `SELECT`, `FROM`, `WHERE`, and `ORDER BY` queries |
 | Day 13 | SQL joins, assets, and risk | Explain joins, classify assets, and score a risk register |
-| Day 14 | Botium Toys review | Connect findings to business impact and remediation order |
+| Day 14 | Course 5 activities and Botium Toys review | Turn one worksheet into a portfolio artifact and connect findings to business impact |
+
+## Course 5 portfolio sprint
+
+Use this sprint after the two-week plan if you want practical work samples.
+
+| Sprint task | Output |
+| --- | --- |
+| Asset inventory | Build a small table with asset, owner, network access, location, notes, and sensitivity |
+| Risk register | Score at least five risks with likelihood, severity, priority, and a recommended response |
+| USB scenario | Write contents, attacker mindset, and risk-analysis paragraphs with technical, operational, and managerial controls |
+| Data leak worksheet | Map the incident to least privilege, NIST CSF Protect, and NIST SP 800-53 AC-6 |
+| Access control worksheet | Use log evidence and directory evidence to identify a stale or overprivileged account |
+| PASTA worksheet | Create a DFD, attack tree, threat list, vulnerability list, and control recommendations |
 
 ## Interview-ready prompts
 
@@ -70,6 +84,8 @@
 - What would you do first after receiving a suspicious alert?
 - Why is chain of custody important?
 - Why is least privilege important for reducing insider risk?
+- How would you identify and fix a stale contractor account?
+- How can folder-sharing controls prevent a data leak?
 - How do source IP, destination IP, port, and protocol help explain a network alert?
 - Why is HTTPS safer than HTTP?
 - What is the difference between a firewall, proxy, and VPN?
@@ -77,6 +93,7 @@
 - What is the difference between Linux filtering and SQL filtering?
 - How would you prioritize a risk register entry?
 - What are the stages of PASTA?
+- What evidence belongs in a portfolio-ready worksheet answer?
 
 ## Fast recall sheet
 
@@ -99,6 +116,7 @@
 - Identify the missing control
 - Explain the business impact
 - Recommend the next control or process improvement
+- Tie your recommendation to evidence from the scenario
 
 ### If you freeze in a hands-on lab
 

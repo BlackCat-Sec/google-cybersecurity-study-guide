@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">PASTA attack tree for user data</title>
+  <desc id="desc">A simple attack tree showing user data as the target with SQL injection and session hijacking as attack paths.</desc>
+  <rect width="960" height="500" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">PASTA attack tree: user data</text>
+  <text x="42" y="84" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Attack trees start with the asset or outcome and branch into possible attack paths.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#49566b"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#94a3b8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g font-family="Arial, sans-serif" fill="#172033">
+    <g transform="translate(360 116)" filter="url(#shadow)">
+      <rect width="240" height="76" rx="12" fill="#ffe3e3" stroke="#e03131" stroke-width="2"/>
+      <text x="120" y="34" text-anchor="middle" font-size="20" font-weight="700">Target</text>
+      <text x="120" y="58" text-anchor="middle" font-size="20" font-weight="700">User data</text>
+    </g>
+    <line x1="480" y1="192" x2="302" y2="260" stroke="#49566b" stroke-width="2.4" marker-end="url(#arrow)"/>
+    <line x1="480" y1="192" x2="658" y2="260" stroke="#49566b" stroke-width="2.4" marker-end="url(#arrow)"/>
+    <g transform="translate(154 264)" filter="url(#shadow)">
+      <rect width="250" height="76" rx="12" fill="#fff3bf" stroke="#f08c00" stroke-width="2"/>
+      <text x="125" y="34" text-anchor="middle" font-size="19" font-weight="700">SQL injection</text>
+      <text x="125" y="58" text-anchor="middle" font-size="13" fill="#40516a">Database query abuse</text>
+    </g>
+    <g transform="translate(556 264)" filter="url(#shadow)">
+      <rect width="250" height="76" rx="12" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+      <text x="125" y="34" text-anchor="middle" font-size="19" font-weight="700">Session hijacking</text>
+      <text x="125" y="58" text-anchor="middle" font-size="13" fill="#40516a">Misuse of an active session</text>
+    </g>
+    <line x1="279" y1="340" x2="279" y2="386" stroke="#49566b" stroke-width="2.4" marker-end="url(#arrow)"/>
+    <line x1="681" y1="340" x2="681" y2="386" stroke="#49566b" stroke-width="2.4" marker-end="url(#arrow)"/>
+    <g transform="translate(126 392)" filter="url(#shadow)">
+      <rect width="306" height="58" rx="10" fill="#ffffff" stroke="#f08c00" stroke-width="2"/>
+      <text x="153" y="25" text-anchor="middle" font-size="16" font-weight="700">Lack of prepared statements</text>
+      <text x="153" y="45" text-anchor="middle" font-size="13" fill="#40516a">User input can change query logic</text>
+    </g>
+    <g transform="translate(530 392)" filter="url(#shadow)">
+      <rect width="302" height="58" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+      <text x="151" y="25" text-anchor="middle" font-size="16" font-weight="700">Weak login credentials</text>
+      <text x="151" y="45" text-anchor="middle" font-size="13" fill="#40516a">Account access is easier to steal</text>
+    </g>
+  </g>
+  <rect x="42" y="462" width="876" height="1" fill="#cbd5e1"/>
+  <text x="42" y="486" font-family="Arial, sans-serif" font-size="13" fill="#40516a">Controls: prepared statements, input validation, MFA, secure session cookies, least privilege, logging, and anomaly detection.</text>
+</svg>
