@@ -66,6 +66,20 @@ The core issue is not just one missing tool. The larger problem is inadequate as
 7. Improve encryption and physical security coverage
 8. Create a plan for legacy system retirement or tighter monitoring
 
+## Turning findings into a risk register
+
+The case study becomes more useful when each finding is tracked as a risk register entry. A good entry connects the asset, the risk, the vulnerable condition, the business impact, and the next control.
+
+| Asset or process | Risk | Why it matters | First control response |
+| --- | --- | --- | --- |
+| Customer data | Unauthorized access | Broad access can expose PII and payment-related information | Least privilege and access reviews |
+| Business operations | Extended outage | No disaster recovery plan can make recovery slow and uncertain | Backup and recovery playbook |
+| User accounts | Credential compromise | Weak passwords and no password manager increase account takeover risk | Password policy, MFA, and password manager |
+| Financial processes | Fraud or unchecked decisions | Lack of separation of duties can let one person control too much | Divide responsibilities and audit approvals |
+| Network monitoring | Delayed detection | Missing IDS coverage reduces visibility into suspicious activity | Deploy IDS and define alert workflow |
+
+For more detail on inventories and risk scoring, see [11 Assets, Risk, and Threat Modeling](11-assets-risk-and-threat-modeling.md).
+
 ## A simple audit workflow
 
 ```mermaid

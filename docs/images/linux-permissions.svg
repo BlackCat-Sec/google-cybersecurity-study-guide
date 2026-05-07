@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Linux permission string anatomy</title>
+  <desc id="desc">A visual breakdown of a ten character Linux permission string into file type, user, group, and other permission groups.</desc>
+  <rect width="920" height="360" fill="#f7fafc"/>
+  <text x="40" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">Linux permission string</text>
+  <text x="40" y="82" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Example: -rw-rw-r-- means a regular file where the owner and group can read/write, and everyone else can only read.</text>
+  <g transform="translate(50 125)">
+    <rect x="0" y="0" width="80" height="78" rx="8" fill="#dae8ff" stroke="#4263eb"/>
+    <text x="40" y="32" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#1f3a8a">-</text>
+    <text x="40" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1f3a8a">type</text>
+    <rect x="95" y="0" width="180" height="78" rx="8" fill="#dff6e5" stroke="#2f9e44"/>
+    <text x="185" y="32" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#1b5e20">rw-</text>
+    <text x="185" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1b5e20">user permissions</text>
+    <rect x="290" y="0" width="180" height="78" rx="8" fill="#fff3bf" stroke="#f08c00"/>
+    <text x="380" y="32" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#8a4b00">rw-</text>
+    <text x="380" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8a4b00">group permissions</text>
+    <rect x="485" y="0" width="180" height="78" rx="8" fill="#ffe3e3" stroke="#e03131"/>
+    <text x="575" y="32" text-anchor="middle" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#8f1d1d">r--</text>
+    <text x="575" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8f1d1d">other permissions</text>
+  </g>
+  <g transform="translate(50 240)" font-family="Arial, sans-serif" font-size="15" fill="#172033">
+    <text x="0" y="0" font-weight="700">Legend</text>
+    <text x="0" y="30">r = read file contents or list directory contents</text>
+    <text x="0" y="56">w = edit a file or create/delete files inside a directory</text>
+    <text x="0" y="82">x = run a file or enter/search through a directory</text>
+    <text x="475" y="30">Use <tspan font-family="Consolas, monospace">ls -la</tspan> to inspect hidden files too.</text>
+    <text x="475" y="56">Use <tspan font-family="Consolas, monospace">chmod</tspan> to add, remove, or set permissions.</text>
+    <text x="475" y="82">Always connect permission changes to least privilege.</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" role="img" aria-labelledby="title desc">
+  <title id="title">TCP/IP model layers</title>
+  <desc id="desc">Four TCP/IP layers with examples of protocols and analyst questions at each layer.</desc>
+  <rect width="920" height="430" fill="#f8fafc"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">TCP/IP model for analysts</text>
+  <text x="42" y="82" font-family="Arial, sans-serif" font-size="15" fill="#40516a">Use layers to locate where communication, failure, or suspicious activity is happening.</text>
+  <g transform="translate(70 120)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="300" height="64" rx="8" fill="#e7f5ff" stroke="#1c7ed6"/>
+    <text x="22" y="27" font-size="18" font-weight="700" fill="#184b7a">Application</text>
+    <text x="22" y="49" font-size="13" fill="#184b7a">HTTP, HTTPS, DNS, SSH, SMTP, IMAP, POP3</text>
+    <rect x="0" y="74" width="300" height="64" rx="8" fill="#ebfbee" stroke="#2f9e44"/>
+    <text x="22" y="101" font-size="18" font-weight="700" fill="#1b5e20">Transport</text>
+    <text x="22" y="123" font-size="13" fill="#1b5e20">TCP, UDP, ports, sessions</text>
+    <rect x="0" y="148" width="300" height="64" rx="8" fill="#fff3bf" stroke="#f08c00"/>
+    <text x="22" y="175" font-size="18" font-weight="700" fill="#8a4b00">Internet</text>
+    <text x="22" y="197" font-size="13" fill="#8a4b00">IP, ICMP, routing between networks</text>
+    <rect x="0" y="222" width="300" height="64" rx="8" fill="#ffe3e3" stroke="#e03131"/>
+    <text x="22" y="249" font-size="18" font-weight="700" fill="#8f1d1d">Network access</text>
+    <text x="22" y="271" font-size="13" fill="#8f1d1d">MAC, ARP, Wi-Fi, Ethernet, switches</text>
+  </g>
+  <g transform="translate(445 126)" font-family="Arial, sans-serif" font-size="15" fill="#172033">
+    <text x="0" y="0" font-size="18" font-weight="700">Analyst questions</text>
+    <text x="0" y="38">Application: Which service or protocol is involved?</text>
+    <text x="0" y="74">Transport: Which port and connection behavior appear?</text>
+    <text x="0" y="110">Internet: What are the source and destination IPs?</text>
+    <text x="0" y="146">Network access: Which local device or MAC is involved?</text>
+    <text x="0" y="206" font-size="18" font-weight="700">Why this helps</text>
+    <text x="0" y="244">Layering turns noisy traffic into a structured question.</text>
+    <text x="0" y="276">It also helps explain firewall, SIEM, and packet-capture findings.</text>
+  </g>
+</svg>
