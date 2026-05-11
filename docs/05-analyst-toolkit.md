@@ -24,6 +24,8 @@ These tools capture and inspect network traffic. They are useful for understandi
 
 See [12 Networking and Network Security](12-networking-and-network-security.md) for TCP/IP layers, common protocols, ports, firewalls, proxies, and VPNs.
 
+See [14 Detection and Incident Response](14-detection-and-incident-response.md) for Wireshark, tcpdump, TShark, PCAP files, and packet-investigation workflows.
+
 ### Playbooks
 
 Playbooks are operational manuals for repeatable security tasks.
@@ -34,6 +36,8 @@ Common uses:
 - Forensic handling
 - Escalation steps
 - Communication and documentation
+
+See [14 Detection and Incident Response](14-detection-and-incident-response.md) for a phishing playbook, alert-ticket triage checklist, incident handler's journal example, and final-report structure.
 
 ### Linux command line
 
@@ -117,6 +121,8 @@ flowchart TD
 - Why playbooks matter
 - Why chain of custody exists
 - Why volatile evidence must be preserved early
+- How playbooks, tickets, journals, and final reports each support incident response
+- Why packet captures, file hashes, and threat-intelligence lookups help validate alerts
 
 ## Quick self-test
 

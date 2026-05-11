@@ -11,6 +11,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Compliance | Following internal standards and external requirements |
 | Confidentiality | Only authorized access is allowed |
 | Integrity | Data remains accurate, authentic, and reliable |
+| Resilience | The ability to keep operating, recover, and improve after disruption |
 | Risk | Potential harm when a threat can exploit a weakness |
 | Security control | A safeguard used to reduce risk |
 | Security framework | A structured model for managing security work |
@@ -37,6 +38,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | --- | --- |
 | Adversarial AI | Using or manipulating AI and ML for attack advantage |
 | BEC | A phishing attack impersonating a trusted source for financial gain |
+| Command and control | Attacker communication used to direct compromised systems |
 | Hacktivist | A threat actor motivated by political or social goals |
 | Malware | Software designed to harm, spy on, or extort |
 | Phishing | Digital deception used to steal data or trigger unsafe action |
@@ -46,6 +48,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Social engineering | Exploiting human trust or behavior to gain access |
 | Spear phishing | Highly targeted phishing against a person or group |
 | Supply-chain attack | Compromising a vendor, dependency, or delivery path |
+| TTPs | Tactics, techniques, and procedures that describe how attackers behave |
 | USB baiting | Leaving a malicious USB device for someone to use |
 | Vishing | Voice-based phishing |
 | Watering hole attack | Compromising a site often used by the target group |
@@ -55,13 +58,30 @@ This glossary is a curated quick-reference built from the supplied course notes 
 
 | Term | Definition |
 | --- | --- |
+| Alert ticket | Case record that tracks alert details, evidence, status, comments, and escalation |
 | Chronicle | A cloud-native platform for retaining and searching security data |
+| CSIRT | Computer security incident response team that coordinates incident handling |
+| EDR | Endpoint detection and response technology for monitoring and responding on endpoints |
+| Event | Observable activity recorded by a system, application, user, device, or security tool |
+| False negative | A missed detection where malicious activity is not alerted |
+| False positive | An alert that appears suspicious but is not actually malicious |
 | IDS | A system that detects suspicious or unauthorized activity |
+| Indicator of attack | Evidence that an attacker may be attempting or preparing malicious activity |
+| Indicator of compromise | Evidence that a system or account may already be affected |
+| Incident | Security event that threatens or harms confidentiality, integrity, or availability |
+| Incident handler's journal | Investigation notebook used to record actions, findings, tools, and questions |
 | Incident response | The organized process for handling security incidents |
+| Incident response lifecycle | Repeatable phases for preparing, detecting, containing, recovering, and improving after incidents |
+| IPS | A system that can detect and block suspicious or unauthorized traffic |
 | Log | A recorded event from a system or device |
 | Packet sniffer | A tool that captures and analyzes network traffic |
 | Playbook | A documented procedure for repeatable security tasks |
 | SIEM | A platform that collects and analyzes security event and log data |
+| SOAR | Security orchestration, automation, and response technology for automating repeatable response work |
+| SOC | Security operations center where analysts monitor, investigate, and respond to security activity |
+| True negative | Normal activity that is correctly treated as non-malicious |
+| True positive | Alerted activity that investigation confirms is malicious or risky |
+| VirusTotal | Threat-intelligence service often used to check file hashes, domains, URLs, and IP addresses |
 
 ## Networking and protocols
 
@@ -107,14 +127,17 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Switch | Network device that forwards local traffic using MAC addresses |
 | TCP | Connection-oriented transport protocol |
 | TCP/IP model | Four-layer model for organizing network communication |
+| tcpdump | Command-line packet capture and packet inspection tool |
 | Telnet | Insecure remote shell protocol that sends data in clear text |
 | TLS | Encryption protocol used to protect data in transit |
 | Transport layer | TCP/IP layer where TCP, UDP, and ports organize host-to-host delivery |
+| TShark | Command-line packet analysis tool related to Wireshark |
 | UDP | Connectionless transport protocol |
 | Uncontrolled zone | Network area outside organizational control, such as the public internet |
 | VPN | Encrypted tunnel over an untrusted network |
 | WAF | Web application firewall that filters web application traffic |
 | Wi-Fi | Wireless networking based on IEEE 802.11 standards |
+| Wireshark | Graphical network protocol analyzer used to inspect packets and PCAP files |
 | WireGuard | Modern VPN protocol designed for simpler setup and strong performance |
 | WPA | Wi-Fi security protocol family |
 
@@ -137,8 +160,17 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Term | Definition |
 | --- | --- |
 | Chain of custody | Documented record of evidence possession and control |
+| Containment | Response action that limits the spread or impact of an incident |
+| Eradication | Removing the cause of an incident, such as malware, persistence, or exploited weaknesses |
 | Evidence preservation | Protecting evidence from change or loss during investigation |
+| File hash | Fingerprint generated from file contents, often used to compare files to known malware |
+| Final report | Post-incident document summarizing timeline, findings, actions, impact, and recommendations |
+| Hash value | Output of a hashing algorithm, commonly used as an indicator for files |
 | Order of volatility | The priority order for capturing volatile data before it disappears |
+| Packet capture | Saved network traffic used for investigation and analysis |
+| PCAP | Common name for a packet-capture file or packet-capture format |
+| Post-incident activity | Reporting, lessons learned, detection tuning, and control improvement after an incident |
+| Recovery | Restoring systems or services and confirming they are operating safely |
 
 ## Linux and permissions
 

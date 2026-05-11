@@ -9,6 +9,7 @@ These are primary or high-value references that match the topics in the study gu
 - NIST Cybersecurity Framework 2.0 release note: https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework
 - NIST Risk Management Framework: https://csrc.nist.gov/projects/risk-management/about-rmf
 - NIST SP 800-53 controls: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+- NIST SP 800-61 Rev. 3 incident response profile: https://csrc.nist.gov/pubs/sp/800/61/r3/final
 - NIST NCCoE Adversarial Machine Learning overview: https://www.nccoe.nist.gov/ai/adversarial-machine-learning
 - CompTIA Security+: https://www.comptia.org/certifications/security
 - ISO/IEC 27001: https://www.iso.org/standard/27001
@@ -37,6 +38,11 @@ These are primary or high-value references that match the topics in the study gu
 - IANA Service Name and Port Number Registry: https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
 - IETF RFC Index: https://www.rfc-editor.org/rfc-index.html
 - Wi-Fi Alliance security overview: https://www.wi-fi.org/discover-wi-fi/security
+- Wireshark User's Guide: https://www.wireshark.org/docs/wsug_html/
+- Wireshark Display Filter Reference: https://www.wireshark.org/docs/dfref/
+- tcpdump manual page: https://man7.org/linux/man-pages/man8/tcpdump.8.html
+- VirusTotal Documentation: https://docs.virustotal.com/
+- Suricata Documentation: https://docs.suricata.io/
 
 ## How to use the references
 
@@ -44,5 +50,7 @@ These are primary or high-value references that match the topics in the study gu
 - Use OWASP for application security and injection-prevention practices.
 - Use CISA KEV, CVE, and CVSS when prioritizing vulnerability work.
 - Use IANA and RFCs for protocol and port-number source checks.
+- Use NIST SP 800-61 Rev. 3 for current incident-response framing and program guidance.
+- Use Wireshark, tcpdump, VirusTotal, and Suricata documentation when validating tool syntax or behavior.
 - Use regulation pages when you need accurate legal scope.
 - Use CompTIA Security+ as a parallel exam-oriented review path.

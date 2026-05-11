@@ -133,6 +133,8 @@ Example interpretation:
 | Repeated ICMP failures | Possible routing or connectivity issue |
 | Traffic to TCP 23 | Telnet exposure or unsafe remote access |
 
+For hands-on packet-capture tools, filters, PCAP files, and Wireshark/tcpdump examples, continue with [14 Detection and Incident Response](14-detection-and-incident-response.md).
+
 ## NAT, DHCP, and ARP
 
 | Protocol or process | What it does | Why it matters |
