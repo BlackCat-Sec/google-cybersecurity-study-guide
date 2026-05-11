@@ -27,6 +27,14 @@ This repository was organized from the following user-supplied source files. The
 - `C:/Users/gowda/OneDrive/Desktop/O9CTNDxISFSa9UVVI0rFyw_eb101a9eeab14f9497ebdad42739aef1_Activity-Template_-Data-leak-worksheet.docx`
 - `C:/Users/gowda/OneDrive/Desktop/tcb13n8dSkO-aMxA81RtZw_48ab62b34e1e4139959030e71fbd3bf1_PASTA-attack-tree.pptx`
 - `C:/Users/gowda/OneDrive/Desktop/tKGbXRrvRWiRSQXxgIvfiQ_5d9495c9904c4329bca9d5171476cef1_Activity-Template_-Access-control-worksheet.docx`
+- `C:/Users/gowda/OneDrive/Desktop/3DAgXUPIS7GOQrGQx8Zpng_37a4405bb78c48b0b9269a90b6c730f1_Diagram-template.pptx`
+- `C:/Users/gowda/OneDrive/Desktop/7-xsgu6_Ri2HFxYAaGu_iQ_7eb2e8762e00465cacf14547666540f1_Investigation-findings.pptx`
+- `C:/Users/gowda/OneDrive/Desktop/c3BfRpn4Tjajvi1CSwIwsQ_d37e89552c6a41b58442364bb43970f1_Incident-handler-s-journal-entry-exemplar.docx`
+- `C:/Users/gowda/OneDrive/Desktop/dNitWlW7Qm-n0j7cF93IZQ_4accb8038bb94f44a0c516f9d85d45f1_Phishing-incident-response-playbook.docx`
+- `C:/Users/gowda/OneDrive/Desktop/GVM-mnt1SMO3j9DjyGdxBQ_0e81e44bdc054fe1953b69246b7be9f1_Incident-handler-s-journal- (1).docx`
+- `C:/Users/gowda/OneDrive/Desktop/GVM-mnt1SMO3j9DjyGdxBQ_0e81e44bdc054fe1953b69246b7be9f1_Incident-handler-s-journal-.docx`
+- `C:/Users/gowda/OneDrive/Desktop/rejz-a3GQnW-6F7QNQ2OSQ_11bc4deeb29b4d16bc1702a0514a1ff1_Diagram-exemplar.pptx`
+- `C:/Users/gowda/OneDrive/Desktop/sn8xozuBTt2AimZgyM-Chw_866808ff23de404880b69435e0e285f1_Alert-ticket.docx`
 
 ## How they were used
 
@@ -43,6 +51,12 @@ This repository was organized from the following user-supplied source files. The
 - The new Course 5 activity templates supplied portfolio-practice scenarios for asset inventory, risk registers, removable-media risk, data leaks, access control, and PASTA threat modeling.
 - The accounting exercise supplied event-log and employee-directory evidence for identifying a stale contractor account with administrative access.
 - The PASTA PowerPoints supplied the simplified sneaker app data flow and attack tree concepts that were redrawn as accessible SVG study diagrams.
+- The Course 6 notes in `googlenotes.md` supplied the detection and response topic flow, including SOC roles, incident response phases, SIEM, IDS/IPS, EDR, SOAR, packet analysis, Wireshark, tcpdump, TShark, file hashes, VirusTotal, Suricata, and final reporting.
+- The phishing playbook supplied the alert-evaluation and escalation flow that was redrawn as a beginner-friendly triage diagram.
+- The alert-ticket activity supplied the phishing-ticket scenario, attachment/hash evidence, and ticket fields used for the triage example.
+- The incident handler journal template and exemplar supplied the 5 W's structure and the healthcare ransomware journal example.
+- The investigation-findings deck supplied the malicious hash investigation, Flagpro/BlackTech context, and indicators such as domain, IP address, hash, command and control, HTTP requests, and input capture.
+- The Wireshark/tcpdump diagram template and exemplar supplied the comparison points used in the packet-analysis chart.
 
 ## Editorial approach
 

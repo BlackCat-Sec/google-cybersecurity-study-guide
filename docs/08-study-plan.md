@@ -13,6 +13,7 @@
 - Read `03-threat-actors-and-ethics.md`
 - Read `05-analyst-toolkit.md`
 - Read `12-networking-and-network-security.md`
+- Read `14-detection-and-incident-response.md`
 - Read `09-linux-and-permissions.md`
 - Read `10-sql-for-security-analysis.md`
 - Practice explaining why evidence handling matters
@@ -40,10 +41,10 @@
 | Day 3 | Threat actors, ethics, and legal boundaries |
 | Day 4 | Controls, categories, and NIST frameworks |
 | Day 5 | Compliance regulations and use cases |
-| Day 6 | SIEM, IDS, playbooks, and evidence handling |
-| Day 7 | Networking, Linux permissions, SQL basics, and glossary review |
+| Day 6 | SIEM, IDS/IPS, EDR, phishing triage, packet analysis, and evidence handling |
+| Day 7 | Networking, Linux permissions, SQL basics, incident reporting, and glossary review |
 
-## Two-week deeper plan
+## Two-week deeper plan plus response day
 
 | Day | Focus | Practice |
 | --- | --- | --- |
@@ -61,6 +62,7 @@
 | Day 12 | SQL basics | Write `SELECT`, `FROM`, `WHERE`, and `ORDER BY` queries |
 | Day 13 | SQL joins, assets, and risk | Explain joins, classify assets, and score a risk register |
 | Day 14 | Course 5 activities and Botium Toys review | Turn one worksheet into a portfolio artifact and connect findings to business impact |
+| Day 15 | Course 6 detection and response | Triage a phishing ticket, search a file hash, compare Wireshark and tcpdump, and draft a journal entry |
 
 ## Course 5 portfolio sprint
 
@@ -75,6 +77,19 @@ Use this sprint after the two-week plan if you want practical work samples.
 | Access control worksheet | Use log evidence and directory evidence to identify a stale or overprivileged account |
 | PASTA worksheet | Create a DFD, attack tree, threat list, vulnerability list, and control recommendations |
 
+## Course 6 incident-response sprint
+
+Use this sprint when you want hands-on detection and response practice.
+
+| Sprint task | Output |
+| --- | --- |
+| Phishing alert ticket | Write severity, key evidence, escalation decision, and closure or escalation notes |
+| Incident handler's journal | Record date, entry number, tools, 5 W's, evidence, questions, and next steps |
+| File-hash investigation | Search the hash, record vendor reputation, malware family if known, indicators, and cautions |
+| Packet analysis comparison | Explain when to use Wireshark, tcpdump, and TShark |
+| PCAP workflow | Identify endpoints, ports, protocols, filters, and suspicious indicators |
+| Final report outline | Draft executive summary, timeline, findings, actions taken, recommendations, and lessons learned |
+
 ## Interview-ready prompts
 
 - Explain the CIA triad with an example from a real business.
@@ -83,6 +98,11 @@ Use this sprint after the two-week plan if you want practical work samples.
 - What is the difference between preventive and detective controls?
 - What would you do first after receiving a suspicious alert?
 - Why is chain of custody important?
+- What is the difference between an event, alert, and incident?
+- How would you triage a phishing email with a suspicious attachment?
+- Why should you search a file hash before opening a suspicious file?
+- When would you use Wireshark instead of tcpdump?
+- What belongs in an incident handler's journal?
 - Why is least privilege important for reducing insider risk?
 - How would you identify and fix a stale contractor account?
 - How can folder-sharing controls prevent a data leak?
