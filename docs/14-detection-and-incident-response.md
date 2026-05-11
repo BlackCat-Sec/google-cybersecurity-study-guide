@@ -2,6 +2,8 @@
 
 This chapter turns the Course 6 materials into a practical beginner guide for alert triage, incident response, packet analysis, file-hash investigation, and documentation. The goal is simple: when an alert appears, you should know what to check, what to write down, when to escalate, and how to explain the incident in plain language.
 
+After reading this chapter, use [15 Course 6 Activities and Practice](15-course-6-activities-and-practice.md) to complete the phishing ticket, incident journal, hash investigation, packet-analysis, Suricata, and final-report activities.
+
 ## Big picture
 
 Detection and response work answers five questions:
@@ -366,6 +368,16 @@ flowchart TD
 - When to use Wireshark, tcpdump, and TShark
 - What SIEM, IDS, IPS, EDR, and SOAR each contribute
 - Why journals, tickets, and final reports all matter
+
+## Practice next
+
+Use [15 Course 6 Activities and Practice](15-course-6-activities-and-practice.md) for:
+
+- Blank phishing-ticket and journal templates
+- Worked answers for the supplied alert-ticket and ransomware-journal scenarios
+- Hash-investigation and Pyramid of Pain practice
+- Wireshark, tcpdump, PCAP, and Suricata exercises
+- A phishing-to-incident capstone package
 
 ## Quick self-test
 

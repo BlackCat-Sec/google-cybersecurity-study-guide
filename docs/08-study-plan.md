@@ -14,6 +14,7 @@
 - Read `05-analyst-toolkit.md`
 - Read `12-networking-and-network-security.md`
 - Read `14-detection-and-incident-response.md`
+- Complete selected activities from `15-course-6-activities-and-practice.md`
 - Read `09-linux-and-permissions.md`
 - Read `10-sql-for-security-analysis.md`
 - Practice explaining why evidence handling matters
@@ -42,7 +43,7 @@
 | Day 4 | Controls, categories, and NIST frameworks |
 | Day 5 | Compliance regulations and use cases |
 | Day 6 | SIEM, IDS/IPS, EDR, phishing triage, packet analysis, and evidence handling |
-| Day 7 | Networking, Linux permissions, SQL basics, incident reporting, and glossary review |
+| Day 7 | Networking, Linux permissions, SQL basics, Course 6 activity practice, and glossary review |
 
 ## Two-week deeper plan plus response day
 
@@ -62,7 +63,7 @@
 | Day 12 | SQL basics | Write `SELECT`, `FROM`, `WHERE`, and `ORDER BY` queries |
 | Day 13 | SQL joins, assets, and risk | Explain joins, classify assets, and score a risk register |
 | Day 14 | Course 5 activities and Botium Toys review | Turn one worksheet into a portfolio artifact and connect findings to business impact |
-| Day 15 | Course 6 detection and response | Triage a phishing ticket, search a file hash, compare Wireshark and tcpdump, and draft a journal entry |
+| Day 15 | Course 6 detection and response | Complete `15-course-6-activities-and-practice.md`: phishing ticket, hash investigation, Wireshark/tcpdump comparison, Suricata review, journal entry, and final report outline |
 
 ## Course 5 portfolio sprint
 
@@ -80,6 +81,8 @@ Use this sprint after the two-week plan if you want practical work samples.
 ## Course 6 incident-response sprint
 
 Use this sprint when you want hands-on detection and response practice.
+
+For templates, scenarios, and answer keys, use `15-course-6-activities-and-practice.md`.
 
 | Sprint task | Output |
 | --- | --- |

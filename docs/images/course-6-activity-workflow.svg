@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Course 6 activity workflow</title>
+  <desc id="desc">Workflow showing how Course 6 source materials become beginner activities, evidence tables, decisions, documentation, and portfolio artifacts.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .box{fill:#ffffff;stroke:#334155;stroke-width:2}
+      .source{fill:#dbeafe}
+      .practice{fill:#dcfce7}
+      .document{fill:#fef3c7}
+      .portfolio{fill:#fce7f3}
+      .title{font:700 24px Arial, sans-serif;fill:#111827}
+      .label{font:700 17px Arial, sans-serif;fill:#111827}
+      .small{font:14px Arial, sans-serif;fill:#374151}
+      .arrow{stroke:#1f2937;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1040" height="560" rx="18" />
+  <text class="title" x="520" y="46" text-anchor="middle">Course 6 Activity Workflow</text>
+  <rect class="box source" x="60" y="120" width="210" height="140" rx="14" />
+  <text class="label" x="165" y="158" text-anchor="middle">1. Source Material</text>
+  <text class="small" x="165" y="190" text-anchor="middle">Playbooks, tickets,</text>
+  <text class="small" x="165" y="212" text-anchor="middle">journals, diagrams,</text>
+  <text class="small" x="165" y="234" text-anchor="middle">and course notes</text>
+  <rect class="box practice" x="320" y="120" width="210" height="140" rx="14" />
+  <text class="label" x="425" y="158" text-anchor="middle">2. Practice</text>
+  <text class="small" x="425" y="190" text-anchor="middle">Triage, compare,</text>
+  <text class="small" x="425" y="212" text-anchor="middle">search, filter,</text>
+  <text class="small" x="425" y="234" text-anchor="middle">and investigate</text>
+  <rect class="box document" x="580" y="120" width="210" height="140" rx="14" />
+  <text class="label" x="685" y="158" text-anchor="middle">3. Document</text>
+  <text class="small" x="685" y="190" text-anchor="middle">Ticket comments,</text>
+  <text class="small" x="685" y="212" text-anchor="middle">journal entries,</text>
+  <text class="small" x="685" y="234" text-anchor="middle">and final reports</text>
+  <rect class="box portfolio" x="830" y="120" width="150" height="140" rx="14" />
+  <text class="label" x="905" y="158" text-anchor="middle">4. Portfolio</text>
+  <text class="small" x="905" y="190" text-anchor="middle">Scenario,</text>
+  <text class="small" x="905" y="212" text-anchor="middle">evidence,</text>
+  <text class="small" x="905" y="234" text-anchor="middle">decision</text>
+  <path class="arrow" d="M270 190 L310 190" />
+  <path class="arrow" d="M530 190 L570 190" />
+  <path class="arrow" d="M790 190 L820 190" />
+  <rect class="box" x="130" y="340" width="780" height="95" rx="14" />
+  <text class="label" x="520" y="375" text-anchor="middle">Learning loop</text>
+  <text class="small" x="520" y="402" text-anchor="middle">Read the concept, complete the blank worksheet, check the answer key, then rewrite the result in your own words.</text>
+  <path class="arrow" d="M905 260 C905 320 810 388 755 388" />
+  <path class="arrow" d="M285 388 C220 388 165 330 165 270" />
+</svg>

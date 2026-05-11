@@ -72,6 +72,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Incident handler's journal | Investigation notebook used to record actions, findings, tools, and questions |
 | Incident response | The organized process for handling security incidents |
 | Incident response lifecycle | Repeatable phases for preparing, detecting, containing, recovering, and improving after incidents |
+| Incident triage | Early review of evidence to decide severity, scope, and next response action |
 | IPS | A system that can detect and block suspicious or unauthorized traffic |
 | Log | A recorded event from a system or device |
 | Packet sniffer | A tool that captures and analyzes network traffic |
@@ -81,6 +82,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | SOC | Security operations center where analysts monitor, investigate, and respond to security activity |
 | True negative | Normal activity that is correctly treated as non-malicious |
 | True positive | Alerted activity that investigation confirms is malicious or risky |
+| Ticket status | Field that shows whether an alert case is open, closed, escalated, or still under investigation |
 | VirusTotal | Threat-intelligence service often used to check file hashes, domains, URLs, and IP addresses |
 
 ## Networking and protocols

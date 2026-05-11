@@ -15,6 +15,7 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 - SQL querying for structured security investigations
 - Asset inventories, risk registers, and threat modeling
 - Course 5 activity practice: home asset inventories, USB risk analysis, data leak worksheets, access control reviews, and PASTA artifacts
+- Course 6 activity practice: phishing tickets, incident journals, hash investigation, packet analysis, Suricata review, and final reports
 - The Botium Toys audit case study
 - A curated glossary and a practical study plan
 
@@ -24,10 +25,11 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 2. Move through the topics in order.
 3. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
 4. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
-5. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to practice Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
-6. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
-7. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
-8. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
+5. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to learn Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
+6. Use [docs/15-course-6-activities-and-practice.md](docs/15-course-6-activities-and-practice.md) to complete Course 6 activities with blank templates, worked answers, and a capstone.
+7. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
+8. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
+9. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
 
 ## Study map
 
@@ -42,8 +44,9 @@ flowchart LR
     G --> H["Assets, Risk, and Threat Modeling"]
     H --> I["Course 5 Activity Practice"]
     I --> J["Detection and Incident Response"]
-    J --> K["Botium Toys Case Study"]
-    K --> L["Glossary and Revision"]
+    J --> K["Course 6 Activity Practice"]
+    K --> L["Botium Toys Case Study"]
+    L --> M["Glossary and Revision"]
 ```
 
 ## Repository layout
@@ -66,6 +69,7 @@ flowchart LR
 |   |-- 12-networking-and-network-security.md
 |   |-- 13-course-5-activities-and-portfolio.md
 |   |-- 14-detection-and-incident-response.md
+|   |-- 15-course-6-activities-and-practice.md
 |   |-- images/
 |   `-- references.md
 `-- sources/
@@ -85,6 +89,7 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Practice Linux permission interpretation and SQL filters with the worked examples.
 - Treat every asset, vulnerability, and control as part of a risk story.
 - Turn each Course 5 worksheet into a short artifact: scenario, evidence, issue, recommendation, and justification.
+- Turn each Course 6 activity into a short artifact: alert, evidence, decision, escalation, journal entry, and final recommendation.
 - Revisit the Botium Toys case study after each theory section.
 
 ## Beginner shortcut
@@ -95,8 +100,9 @@ If you are new to cybersecurity, use this simple order:
 2. Practice analyst tools with networking, Linux, and SQL.
 3. Practice risk thinking with asset inventories and risk registers.
 4. Use the Course 5 activity chapter to write portfolio-style answers.
-5. Use the Course 6 incident-response chapter to practice alert triage, packet analysis, and incident documentation.
-6. Review the glossary whenever a term slows you down.
+5. Learn Course 6 incident-response concepts.
+6. Complete the Course 6 activity workbook.
+7. Review the glossary whenever a term slows you down.
 
 ## Fast checkpoints
 
@@ -108,6 +114,7 @@ If you are new to cybersecurity, use this simple order:
 - Can you identify common ports like DNS 53, SSH 22, HTTPS 443, and DHCP 67/68?
 - Can you triage a phishing alert by checking sender, recipient, attachment, links, hash, and user action?
 - Can you explain when Wireshark, tcpdump, TShark, SIEM, IDS/IPS, EDR, and SOAR are useful?
+- Can you complete an incident handler's journal and a final report outline from a scenario?
 - Can you read a Linux permission string like `-rw-rw-r--`?
 - Can you write a basic SQL query with `SELECT`, `FROM`, `WHERE`, and `ORDER BY`?
 - Can you build a simple risk register using likelihood and severity?
