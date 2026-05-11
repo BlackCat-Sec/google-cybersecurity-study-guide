@@ -15,6 +15,8 @@ Security analysts use Linux to:
 - Install and run security tools
 - Follow incident response playbooks where commands must be repeatable and documented
 
+For hands-on log-analysis practice using the supplied tutorial web, authentication, and vendor sales logs, use [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md).
+
 The command-line interface is especially useful because commands can be copied, repeated, logged, and audited. That matters during investigations because the analyst must be able to explain what they did.
 
 ## Linux architecture in plain language
@@ -75,6 +77,8 @@ grep "Failed password" auth.log
 find /home/analyst/projects -name "*.txt"
 cat server.log | grep "ERROR"
 ```
+
+For deeper practice with `grep`, `sort`, `uniq -c`, `awk`, and `sed` on realistic tutorial logs, continue with [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md).
 
 ## Managing files and directories
 

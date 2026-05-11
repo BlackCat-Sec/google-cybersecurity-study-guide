@@ -4,6 +4,8 @@ This chapter turns the Course 6 materials into a practical beginner guide for al
 
 After reading this chapter, use [15 Course 6 Activities and Practice](15-course-6-activities-and-practice.md) to complete the phishing ticket, incident journal, hash investigation, packet-analysis, Suricata, and final-report activities.
 
+For hands-on log filtering with web access logs, secure authentication logs, and vendor sales logs, use [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md).
+
 ## Big picture
 
 Detection and response work answers five questions:

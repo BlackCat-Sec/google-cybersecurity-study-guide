@@ -13,6 +13,7 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 - Detection, incident response, phishing triage, packet analysis, and investigation documentation
 - Linux command-line basics and file permissions
 - SQL querying for structured security investigations
+- Log analysis practice with tutorial web, authentication, and vendor sales logs
 - Asset inventories, risk registers, and threat modeling
 - Course 5 activity practice: home asset inventories, USB risk analysis, data leak worksheets, access control reviews, and PASTA artifacts
 - Course 6 activity practice: phishing tickets, incident journals, hash investigation, packet analysis, Suricata review, and final reports
@@ -23,7 +24,7 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 
 1. Start with [docs/01-foundations.md](docs/01-foundations.md).
 2. Move through the topics in order.
-3. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
+3. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), [docs/16-log-analysis-tutorial-data.md](docs/16-log-analysis-tutorial-data.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
 4. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
 5. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to learn Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
 6. Use [docs/15-course-6-activities-and-practice.md](docs/15-course-6-activities-and-practice.md) to complete Course 6 activities with blank templates, worked answers, and a capstone.
@@ -41,12 +42,13 @@ flowchart LR
     D --> E["Analyst Toolkit and Response"]
     E --> F["Networking Practice"]
     F --> G["Linux and SQL Practice"]
-    G --> H["Assets, Risk, and Threat Modeling"]
-    H --> I["Course 5 Activity Practice"]
-    I --> J["Detection and Incident Response"]
-    J --> K["Course 6 Activity Practice"]
-    K --> L["Botium Toys Case Study"]
-    L --> M["Glossary and Revision"]
+    G --> H["Log Analysis Tutorial Data"]
+    H --> I["Assets, Risk, and Threat Modeling"]
+    I --> J["Course 5 Activity Practice"]
+    J --> K["Detection and Incident Response"]
+    K --> L["Course 6 Activity Practice"]
+    L --> M["Botium Toys Case Study"]
+    M --> N["Glossary and Revision"]
 ```
 
 ## Repository layout
@@ -70,6 +72,7 @@ flowchart LR
 |   |-- 13-course-5-activities-and-portfolio.md
 |   |-- 14-detection-and-incident-response.md
 |   |-- 15-course-6-activities-and-practice.md
+|   |-- 16-log-analysis-tutorial-data.md
 |   |-- images/
 |   `-- references.md
 `-- sources/
@@ -87,6 +90,7 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Practice classifying incidents by attack type, control type, and business impact.
 - Practice reading network alerts by source, destination, port, protocol, and direction.
 - Practice Linux permission interpretation and SQL filters with the worked examples.
+- Practice Linux log filtering with the tutorial web, secure, and vendor sales logs.
 - Treat every asset, vulnerability, and control as part of a risk story.
 - Turn each Course 5 worksheet into a short artifact: scenario, evidence, issue, recommendation, and justification.
 - Turn each Course 6 activity into a short artifact: alert, evidence, decision, escalation, journal entry, and final recommendation.
@@ -98,11 +102,12 @@ If you are new to cybersecurity, use this simple order:
 
 1. Learn the core language in foundations, threats, and controls.
 2. Practice analyst tools with networking, Linux, and SQL.
-3. Practice risk thinking with asset inventories and risk registers.
-4. Use the Course 5 activity chapter to write portfolio-style answers.
-5. Learn Course 6 incident-response concepts.
-6. Complete the Course 6 activity workbook.
-7. Review the glossary whenever a term slows you down.
+3. Practice log analysis with the tutorial data chapter.
+4. Practice risk thinking with asset inventories and risk registers.
+5. Use the Course 5 activity chapter to write portfolio-style answers.
+6. Learn Course 6 incident-response concepts.
+7. Complete the Course 6 activity workbook.
+8. Review the glossary whenever a term slows you down.
 
 ## Fast checkpoints
 
@@ -117,6 +122,8 @@ If you are new to cybersecurity, use this simple order:
 - Can you complete an incident handler's journal and a final report outline from a scenario?
 - Can you read a Linux permission string like `-rw-rw-r--`?
 - Can you write a basic SQL query with `SELECT`, `FROM`, `WHERE`, and `ORDER BY`?
+- Can you use `grep`, `sort`, and `uniq -c` to find repeated log patterns?
+- Can you explain why raw logs should be sanitized before public sharing?
 - Can you build a simple risk register using likelihood and severity?
 - Can you explain why a former contractor account with admin access is a security issue?
 - Can you map a data leak recommendation to least privilege and NIST CSF Protect?

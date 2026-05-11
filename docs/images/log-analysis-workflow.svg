@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="560" viewBox="0 0 1040 560" role="img" aria-labelledby="title desc">
+  <title id="title">Log analysis workflow</title>
+  <desc id="desc">Workflow showing how analysts inventory logs, filter indicators, count patterns, protect sensitive fields, and document conclusions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .card{fill:#ffffff;stroke:#334155;stroke-width:2}
+      .one{fill:#dbeafe}
+      .two{fill:#dcfce7}
+      .three{fill:#fef3c7}
+      .four{fill:#fee2e2}
+      .five{fill:#fce7f3}
+      .title{font:700 24px Arial, sans-serif;fill:#111827}
+      .label{font:700 17px Arial, sans-serif;fill:#111827}
+      .small{font:14px Arial, sans-serif;fill:#374151}
+      .arrow{stroke:#1f2937;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1040" height="560" rx="18" />
+  <text class="title" x="520" y="48" text-anchor="middle">Log Analysis Workflow</text>
+  <rect class="card one" x="55" y="145" width="170" height="145" rx="14" />
+  <text class="label" x="140" y="180" text-anchor="middle">1. Inventory</text>
+  <text class="small" x="140" y="212" text-anchor="middle">Find files, count</text>
+  <text class="small" x="140" y="234" text-anchor="middle">lines, identify</text>
+  <text class="small" x="140" y="256" text-anchor="middle">log types</text>
+  <rect class="card two" x="255" y="145" width="170" height="145" rx="14" />
+  <text class="label" x="340" y="180" text-anchor="middle">2. Filter</text>
+  <text class="small" x="340" y="212" text-anchor="middle">Search errors,</text>
+  <text class="small" x="340" y="234" text-anchor="middle">failed logins,</text>
+  <text class="small" x="340" y="256" text-anchor="middle">and indicators</text>
+  <rect class="card three" x="455" y="145" width="170" height="145" rx="14" />
+  <text class="label" x="540" y="180" text-anchor="middle">3. Count</text>
+  <text class="small" x="540" y="212" text-anchor="middle">Group by IP,</text>
+  <text class="small" x="540" y="234" text-anchor="middle">status code,</text>
+  <text class="small" x="540" y="256" text-anchor="middle">user, or path</text>
+  <rect class="card four" x="655" y="145" width="170" height="145" rx="14" />
+  <text class="label" x="740" y="180" text-anchor="middle">4. Sanitize</text>
+  <text class="small" x="740" y="212" text-anchor="middle">Mask account IDs,</text>
+  <text class="small" x="740" y="234" text-anchor="middle">session IDs,</text>
+  <text class="small" x="740" y="256" text-anchor="middle">and private data</text>
+  <rect class="card five" x="855" y="145" width="130" height="145" rx="14" />
+  <text class="label" x="920" y="180" text-anchor="middle">5. Report</text>
+  <text class="small" x="920" y="212" text-anchor="middle">Evidence,</text>
+  <text class="small" x="920" y="234" text-anchor="middle">decision,</text>
+  <text class="small" x="920" y="256" text-anchor="middle">next steps</text>
+  <path class="arrow" d="M225 218 L245 218" />
+  <path class="arrow" d="M425 218 L445 218" />
+  <path class="arrow" d="M625 218 L645 218" />
+  <path class="arrow" d="M825 218 L845 218" />
+  <rect class="card" x="145" y="360" width="750" height="95" rx="14" />
+  <text class="label" x="520" y="394" text-anchor="middle">Good analyst habit</text>
+  <text class="small" x="520" y="423" text-anchor="middle">Do not stop at one matching line. Group related events by time, source, destination, user, path, and outcome.</text>
+</svg>

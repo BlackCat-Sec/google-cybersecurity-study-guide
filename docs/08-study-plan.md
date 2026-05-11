@@ -15,6 +15,7 @@
 - Read `12-networking-and-network-security.md`
 - Read `14-detection-and-incident-response.md`
 - Complete selected activities from `15-course-6-activities-and-practice.md`
+- Complete the log-analysis lab in `16-log-analysis-tutorial-data.md`
 - Read `09-linux-and-permissions.md`
 - Read `10-sql-for-security-analysis.md`
 - Practice explaining why evidence handling matters
@@ -43,7 +44,7 @@
 | Day 4 | Controls, categories, and NIST frameworks |
 | Day 5 | Compliance regulations and use cases |
 | Day 6 | SIEM, IDS/IPS, EDR, phishing triage, packet analysis, and evidence handling |
-| Day 7 | Networking, Linux permissions, SQL basics, Course 6 activity practice, and glossary review |
+| Day 7 | Networking, Linux permissions, SQL basics, log-analysis practice, Course 6 activity practice, and glossary review |
 
 ## Two-week deeper plan plus response day
 
@@ -60,7 +61,7 @@
 | Day 9 | Protocols and ports | Memorize TCP/IP layers and common ports |
 | Day 10 | Linux navigation | Practice `pwd`, `ls -la`, `cd`, `cat`, `head`, `tail`, and `less` |
 | Day 11 | Linux permissions | Decode `-rw-rw-r--` and write `chmod` changes for least privilege |
-| Day 12 | SQL basics | Write `SELECT`, `FROM`, `WHERE`, and `ORDER BY` queries |
+| Day 12 | Log filtering and SQL basics | Use `grep`, `sort`, and `uniq -c` on tutorial logs, then write `SELECT`, `FROM`, `WHERE`, and `ORDER BY` queries |
 | Day 13 | SQL joins, assets, and risk | Explain joins, classify assets, and score a risk register |
 | Day 14 | Course 5 activities and Botium Toys review | Turn one worksheet into a portfolio artifact and connect findings to business impact |
 | Day 15 | Course 6 detection and response | Complete `15-course-6-activities-and-practice.md`: phishing ticket, hash investigation, Wireshark/tcpdump comparison, Suricata review, journal entry, and final report outline |
@@ -93,6 +94,18 @@ For templates, scenarios, and answer keys, use `15-course-6-activities-and-pract
 | PCAP workflow | Identify endpoints, ports, protocols, filters, and suspicious indicators |
 | Final report outline | Draft executive summary, timeline, findings, actions taken, recommendations, and lessons learned |
 
+## Log-analysis tutorial sprint
+
+Use this sprint with `16-log-analysis-tutorial-data.md`.
+
+| Sprint task | Output |
+| --- | --- |
+| Log inventory | List each log file, line count, system, and question it can answer |
+| SSH failure review | Count failed passwords, invalid users, repeated source IPs, and nearby successful sessions |
+| Web error review | Count `400` and `500` range status codes and group errors by source IP, path, and time |
+| Vendor sales review | Count code values while masking full account identifiers |
+| Analyst summary | Write scope, evidence, conclusion, and next steps without exposing sensitive raw fields |
+
 ## Interview-ready prompts
 
 - Explain the CIA triad with an example from a real business.
@@ -106,6 +119,8 @@ For templates, scenarios, and answer keys, use `15-course-6-activities-and-pract
 - Why should you search a file hash before opening a suspicious file?
 - When would you use Wireshark instead of tcpdump?
 - What belongs in an incident handler's journal?
+- How would you search logs for repeated failed SSH login attempts?
+- Why should account identifiers and session IDs be masked before public sharing?
 - Why is least privilege important for reducing insider risk?
 - How would you identify and fix a stale contractor account?
 - How can folder-sharing controls prevent a data leak?

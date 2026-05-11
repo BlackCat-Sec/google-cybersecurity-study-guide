@@ -27,6 +27,8 @@ The activities are paraphrased learning exercises based on the source files. The
 4. Explain every decision with evidence.
 5. Treat each activity as a small portfolio artifact: scenario, evidence, decision, action, and lesson learned.
 
+For extra command-line log practice, complete [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md) after Activity 8.
+
 ## Activity 1: Course 6 concept map
 
 ### Goal
