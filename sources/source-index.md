@@ -35,6 +35,7 @@ This repository was organized from the following user-supplied source files. The
 - `C:/Users/gowda/OneDrive/Desktop/GVM-mnt1SMO3j9DjyGdxBQ_0e81e44bdc054fe1953b69246b7be9f1_Incident-handler-s-journal-.docx`
 - `C:/Users/gowda/OneDrive/Desktop/rejz-a3GQnW-6F7QNQ2OSQ_11bc4deeb29b4d16bc1702a0514a1ff1_Diagram-exemplar.pptx`
 - `C:/Users/gowda/OneDrive/Desktop/sn8xozuBTt2AimZgyM-Chw_866808ff23de404880b69435e0e285f1_Alert-ticket.docx`
+- `C:/Users/gowda/OneDrive/Desktop/S5K1R5S0SQ6E0Xiq8CthJA_fb407db2e4964801bdfa2e5b508281f1_tutorialdata.zip`
 
 ## How they were used
 
@@ -58,6 +59,7 @@ This repository was organized from the following user-supplied source files. The
 - The investigation-findings deck supplied the malicious hash investigation, Flagpro/BlackTech context, and indicators such as domain, IP address, hash, command and control, HTTP requests, and input capture.
 - The Wireshark/tcpdump diagram template and exemplar supplied the comparison points used in the packet-analysis chart.
 - The Course 6 activity chapter turns the supplied playbook, ticket, journal, investigation, packet-analysis, and glossary materials into blank learner worksheets, worked answers, and a capstone exercise.
+- The tutorial data archive supplied web access logs, secure authentication logs, mail-server secure logs, and vendor sales records used to create the log-analysis practice chapter. Raw logs were summarized and sanitized instead of copied into the public notes.
 
 ## Editorial approach
 

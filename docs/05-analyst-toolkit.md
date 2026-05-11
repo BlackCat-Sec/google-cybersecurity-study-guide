@@ -79,6 +79,8 @@ See [10 SQL for Security Analysis](10-sql-for-security-analysis.md) for examples
 | Evaluate allowed or blocked traffic | Firewall logs | Shows source, destination, port, protocol, and action |
 | Follow a repeatable response | Playbook | Reduces improvisation and missed steps |
 
+For a complete practice lab using tutorial web access logs, secure authentication logs, and vendor sales logs, see [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md).
+
 ## Evidence handling
 
 ### Chain of custody

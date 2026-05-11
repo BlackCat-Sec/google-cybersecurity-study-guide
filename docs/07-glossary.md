@@ -58,7 +58,9 @@ This glossary is a curated quick-reference built from the supplied course notes 
 
 | Term | Definition |
 | --- | --- |
+| Access log | Log that records web requests such as source IP, timestamp, URI, method, status code, referrer, and user agent |
 | Alert ticket | Case record that tracks alert details, evidence, status, comments, and escalation |
+| Authentication log | Log that records login, session, and authentication activity |
 | Chronicle | A cloud-native platform for retaining and searching security data |
 | CSIRT | Computer security incident response team that coordinates incident handling |
 | EDR | Endpoint detection and response technology for monitoring and responding on endpoints |
@@ -75,6 +77,7 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Incident triage | Early review of evidence to decide severity, scope, and next response action |
 | IPS | A system that can detect and block suspicious or unauthorized traffic |
 | Log | A recorded event from a system or device |
+| Log parsing | Reading or extracting useful fields from log lines for investigation |
 | Packet sniffer | A tool that captures and analyzes network traffic |
 | Playbook | A documented procedure for repeatable security tasks |
 | SIEM | A platform that collects and analyzes security event and log data |
@@ -101,11 +104,13 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | Forward proxy | Proxy that handles internal client requests to external resources |
 | Hub | Network device that repeats traffic to all connected ports |
 | HTTPS | Secure web protocol that uses TLS encryption |
+| HTTP status code | Numeric response code that shows how a web server handled a request |
 | ICMP | Protocol used for network error reporting and connectivity checks |
 | IMAP | Protocol used to read and synchronize email from a server |
 | Internet layer | TCP/IP layer that routes traffic between networks using IP addresses |
 | IP address | Network address used to route traffic to a host or network |
 | IPSec | VPN protocol suite used to authenticate and encrypt packets |
+| JSESSIONID | Java web-session identifier that should be treated as sensitive in logs |
 | MAC address | Hardware address used for local network delivery |
 | NAT | Process that maps private internal IP addresses to a public IP address |
 | Network access layer | TCP/IP layer for local delivery through hardware, MAC addresses, Wi-Fi, Ethernet, and ARP |

@@ -18,6 +18,8 @@ Linux and SQL can both filter data, but they work best in different places.
 
 Use Linux when the evidence is a file. Use SQL when the evidence is in tables.
 
+For hands-on Linux file filtering with realistic tutorial logs, use [16 Log Analysis Tutorial Data](16-log-analysis-tutorial-data.md).
+
 ## Database basics
 
 | Term | Meaning |
