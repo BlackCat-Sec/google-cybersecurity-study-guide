@@ -57,6 +57,7 @@ This repository was organized from the following user-supplied source files. The
 - The incident handler journal template and exemplar supplied the 5 W's structure and the healthcare ransomware journal example.
 - The investigation-findings deck supplied the malicious hash investigation, Flagpro/BlackTech context, and indicators such as domain, IP address, hash, command and control, HTTP requests, and input capture.
 - The Wireshark/tcpdump diagram template and exemplar supplied the comparison points used in the packet-analysis chart.
+- The Course 6 activity chapter turns the supplied playbook, ticket, journal, investigation, packet-analysis, and glossary materials into blank learner worksheets, worked answers, and a capstone exercise.
 
 ## Editorial approach
 
