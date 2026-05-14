@@ -14,6 +14,7 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 - Linux command-line basics and file permissions
 - SQL querying for structured security investigations
 - Log analysis practice with tutorial web, authentication, and vendor sales logs
+- Python automation for security tasks, including functions, regex, file parsing, debugging, and allow-list updates
 - Asset inventories, risk registers, and threat modeling
 - Course 5 activity practice: home asset inventories, USB risk analysis, data leak worksheets, access control reviews, and PASTA artifacts
 - Course 6 activity practice: phishing tickets, incident journals, hash investigation, packet analysis, Suricata review, and final reports
@@ -28,9 +29,10 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 4. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
 5. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to learn Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
 6. Use [docs/15-course-6-activities-and-practice.md](docs/15-course-6-activities-and-practice.md) to complete Course 6 activities with blank templates, worked answers, and a capstone.
-7. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
-8. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
-9. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
+7. Use [docs/17-python-for-security-automation.md](docs/17-python-for-security-automation.md) and [docs/18-course-7-python-activities.md](docs/18-course-7-python-activities.md) to learn and practice Course 7 Python automation.
+8. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
+9. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
+10. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
 
 ## Study map
 
@@ -47,8 +49,10 @@ flowchart LR
     I --> J["Course 5 Activity Practice"]
     J --> K["Detection and Incident Response"]
     K --> L["Course 6 Activity Practice"]
-    L --> M["Botium Toys Case Study"]
-    M --> N["Glossary and Revision"]
+    L --> M["Python Security Automation"]
+    M --> N["Course 7 Python Activities"]
+    N --> O["Botium Toys Case Study"]
+    O --> P["Glossary and Revision"]
 ```
 
 ## Repository layout
@@ -73,6 +77,8 @@ flowchart LR
 |   |-- 14-detection-and-incident-response.md
 |   |-- 15-course-6-activities-and-practice.md
 |   |-- 16-log-analysis-tutorial-data.md
+|   |-- 17-python-for-security-automation.md
+|   |-- 18-course-7-python-activities.md
 |   |-- images/
 |   `-- references.md
 `-- sources/
@@ -94,6 +100,7 @@ These notes are paraphrased and reorganized from personal course materials. They
 - Treat every asset, vulnerability, and control as part of a risk story.
 - Turn each Course 5 worksheet into a short artifact: scenario, evidence, issue, recommendation, and justification.
 - Turn each Course 6 activity into a short artifact: alert, evidence, decision, escalation, journal entry, and final recommendation.
+- Turn each Course 7 Python activity into a small automation artifact: scenario, input, algorithm, code, output, debugging notes, and safe portfolio explanation.
 - Revisit the Botium Toys case study after each theory section.
 
 ## Beginner shortcut
@@ -107,7 +114,9 @@ If you are new to cybersecurity, use this simple order:
 5. Use the Course 5 activity chapter to write portfolio-style answers.
 6. Learn Course 6 incident-response concepts.
 7. Complete the Course 6 activity workbook.
-8. Review the glossary whenever a term slows you down.
+8. Learn Course 7 Python automation concepts.
+9. Complete the Course 7 Python activity workbook.
+10. Review the glossary whenever a term slows you down.
 
 ## Fast checkpoints
 
@@ -124,6 +133,7 @@ If you are new to cybersecurity, use this simple order:
 - Can you write a basic SQL query with `SELECT`, `FROM`, `WHERE`, and `ORDER BY`?
 - Can you use `grep`, `sort`, and `uniq -c` to find repeated log patterns?
 - Can you explain why raw logs should be sanitized before public sharing?
+- Can you write a simple Python function, loop, conditional, regex search, and file-update algorithm?
 - Can you build a simple risk register using likelihood and severity?
 - Can you explain why a former contractor account with admin access is a security issue?
 - Can you map a data leak recommendation to least privilege and NIST CSF Protect?

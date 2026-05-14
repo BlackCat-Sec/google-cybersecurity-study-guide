@@ -36,6 +36,13 @@ This repository was organized from the following user-supplied source files. The
 - `C:/Users/gowda/OneDrive/Desktop/rejz-a3GQnW-6F7QNQ2OSQ_11bc4deeb29b4d16bc1702a0514a1ff1_Diagram-exemplar.pptx`
 - `C:/Users/gowda/OneDrive/Desktop/sn8xozuBTt2AimZgyM-Chw_866808ff23de404880b69435e0e285f1_Alert-ticket.docx`
 - `C:/Users/gowda/OneDrive/Desktop/S5K1R5S0SQ6E0Xiq8CthJA_fb407db2e4964801bdfa2e5b508281f1_tutorialdata.zip`
+- `C:/Users/gowda/OneDrive/Desktop/RkZ7TACZQBm-HWbGAmMYrA_be2aa1c39f1e4af0ab7a76cccb800cf1_Course-7-glossary.docx`
+- `C:/Users/gowda/OneDrive/Desktop/I1H-HQimQAmbXXJWnvsKsw_deac60be1957411cac89d0fea934aff1_Algorithm-for-file-updates-in-Python.docx`
+- `C:/Users/gowda/OneDrive/Desktop/x9h1TRdIQiG_6F5tK6BUaA_1dc0cbfe45e24d9aa4a43a17e031f6f1_Instructions-for-including-Python-code.docx`
+- `C:/Users/gowda/OneDrive/Desktop/Python concepts from module 2.pdf`
+- `C:/Users/gowda/OneDrive/Desktop/Python concepts from module 3.pdf`
+- `C:/Users/gowda/OneDrive/Desktop/Python concepts from module 4.pdf`
+- `C:/Users/gowda/OneDrive/Desktop/Reference Guide_ Python concepts from Course 7.pdf`
 
 ## How they were used
 
@@ -60,6 +67,11 @@ This repository was organized from the following user-supplied source files. The
 - The Wireshark/tcpdump diagram template and exemplar supplied the comparison points used in the packet-analysis chart.
 - The Course 6 activity chapter turns the supplied playbook, ticket, journal, investigation, packet-analysis, and glossary materials into blank learner worksheets, worked answers, and a capstone exercise.
 - The tutorial data archive supplied web access logs, secure authentication logs, mail-server secure logs, and vendor sales records used to create the log-analysis practice chapter. Raw logs were summarized and sanitized instead of copied into the public notes.
+- The Course 7 notes in `googlenotes.md` supplied the Python automation course flow, including environments, data types, variables, conditionals, loops, functions, imports, readability, strings, lists, regex, file operations, parsing, and debugging.
+- The Course 7 glossary supplied Python vocabulary that was added to the main glossary and converted into a vocabulary activity.
+- The module 2, 3, 4, and Course 7 reference PDFs supplied Python syntax coverage for functions, built-ins, imports, comments, strings, lists, regex, file operations, and parsing.
+- The algorithm document supplied the allow-list file-update workflow that was rewritten as notes, a diagram, and a capstone activity.
+- The code-inclusion instructions supplied portfolio guidance for presenting Python code clearly without copying lab directions or exposing sensitive data.
 
 ## Editorial approach
 
