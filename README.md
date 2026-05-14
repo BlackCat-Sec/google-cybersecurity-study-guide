@@ -23,16 +23,17 @@ This repository reorganizes personal notes from the Google Cybersecurity Certifi
 
 ## How to use it
 
-1. Start with [docs/01-foundations.md](docs/01-foundations.md).
-2. Move through the topics in order.
-3. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), [docs/16-log-analysis-tutorial-data.md](docs/16-log-analysis-tutorial-data.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
-4. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
-5. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to learn Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
-6. Use [docs/15-course-6-activities-and-practice.md](docs/15-course-6-activities-and-practice.md) to complete Course 6 activities with blank templates, worked answers, and a capstone.
-7. Use [docs/17-python-for-security-automation.md](docs/17-python-for-security-automation.md) and [docs/18-course-7-python-activities.md](docs/18-course-7-python-activities.md) to learn and practice Course 7 Python automation.
-8. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
-9. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
-10. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
+1. Start with the full clickable [study guide index](docs/index.md) if you want every chapter, activity, diagram, reference, and source page in one place.
+2. Start with [docs/01-foundations.md](docs/01-foundations.md) if you want to read the guide from the beginning.
+3. Move through the topics in order.
+4. Use [docs/12-networking-and-network-security.md](docs/12-networking-and-network-security.md), [docs/09-linux-and-permissions.md](docs/09-linux-and-permissions.md), [docs/10-sql-for-security-analysis.md](docs/10-sql-for-security-analysis.md), [docs/16-log-analysis-tutorial-data.md](docs/16-log-analysis-tutorial-data.md), and [docs/11-assets-risk-and-threat-modeling.md](docs/11-assets-risk-and-threat-modeling.md) for hands-on practice.
+5. Use [docs/13-course-5-activities-and-portfolio.md](docs/13-course-5-activities-and-portfolio.md) to turn course worksheets into portfolio-ready analyst notes.
+6. Use [docs/14-detection-and-incident-response.md](docs/14-detection-and-incident-response.md) to learn Course 6 alert triage, phishing response, packet analysis, file-hash investigation, and incident reporting.
+7. Use [docs/15-course-6-activities-and-practice.md](docs/15-course-6-activities-and-practice.md) to complete Course 6 activities with blank templates, worked answers, and a capstone.
+8. Use [docs/17-python-for-security-automation.md](docs/17-python-for-security-automation.md) and [docs/18-course-7-python-activities.md](docs/18-course-7-python-activities.md) to learn and practice Course 7 Python automation.
+9. Use [docs/07-glossary.md](docs/07-glossary.md) as a quick lookup reference.
+10. Use [docs/08-study-plan.md](docs/08-study-plan.md) for revision and interview prep.
+11. Review [docs/06-botium-toys-case-study.md](docs/06-botium-toys-case-study.md) before any governance, risk, or audit assessment.
 
 ## Study map
 
@@ -55,12 +56,17 @@ flowchart LR
     O --> P["Glossary and Revision"]
 ```
 
+## Clickable navigation
+
+Use [docs/index.md](docs/index.md) for the full clickable table of contents, suggested study paths, visual diagram links, references, and source index.
+
 ## Repository layout
 
 ```text
 .
 |-- README.md
 |-- docs/
+|   |-- index.md
 |   |-- 01-foundations.md
 |   |-- 02-threats-and-attacks.md
 |   |-- 03-threat-actors-and-ethics.md
