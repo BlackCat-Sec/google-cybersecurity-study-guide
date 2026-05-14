@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Python regex parsing flow</title>
+  <desc id="desc">Flowchart showing raw text, regular expression pattern, matches, list output, and analyst interpretation.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg{fill:#f8fafc}
+      .card{fill:#ffffff;stroke:#334155;stroke-width:2}
+      .raw{fill:#dbeafe}
+      .pattern{fill:#dcfce7}
+      .match{fill:#fef3c7}
+      .out{fill:#fce7f3}
+      .title{font:700 24px Arial, sans-serif;fill:#111827}
+      .label{font:700 17px Arial, sans-serif;fill:#111827}
+      .small{font:14px Arial, sans-serif;fill:#374151}
+      .mono{font:700 14px Consolas, monospace;fill:#111827}
+      .arrow{stroke:#1f2937;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="520" rx="18" />
+  <text class="title" x="480" y="45" text-anchor="middle">Regex Parsing with Python</text>
+  <rect class="card raw" x="60" y="120" width="190" height="120" rx="14" />
+  <text class="label" x="155" y="154" text-anchor="middle">Raw text</text>
+  <text class="small" x="155" y="183" text-anchor="middle">Log line, alert,</text>
+  <text class="small" x="155" y="205" text-anchor="middle">file content</text>
+  <rect class="card pattern" x="295" y="120" width="190" height="120" rx="14" />
+  <text class="label" x="390" y="154" text-anchor="middle">Pattern</text>
+  <text class="mono" x="390" y="188" text-anchor="middle">r"\d+\.\d+\.\d+\.\d+"</text>
+  <rect class="card match" x="530" y="120" width="190" height="120" rx="14" />
+  <text class="label" x="625" y="154" text-anchor="middle">re.findall()</text>
+  <text class="small" x="625" y="183" text-anchor="middle">Search every</text>
+  <text class="small" x="625" y="205" text-anchor="middle">matching pattern</text>
+  <rect class="card out" x="765" y="120" width="135" height="120" rx="14" />
+  <text class="label" x="832" y="154" text-anchor="middle">List</text>
+  <text class="small" x="832" y="183" text-anchor="middle">Matches for</text>
+  <text class="small" x="832" y="205" text-anchor="middle">analysis</text>
+  <path class="arrow" d="M250 180 L285 180" />
+  <path class="arrow" d="M485 180 L520 180" />
+  <path class="arrow" d="M720 180 L755 180" />
+  <rect class="card" x="175" y="330" width="610" height="95" rx="14" />
+  <text class="label" x="480" y="365" text-anchor="middle">Analyst use</text>
+  <text class="small" x="480" y="394" text-anchor="middle">Extract IPs, usernames, domains, IDs, and repeated patterns from text evidence.</text>
+</svg>

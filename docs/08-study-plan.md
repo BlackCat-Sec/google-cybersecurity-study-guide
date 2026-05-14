@@ -16,6 +16,8 @@
 - Read `14-detection-and-incident-response.md`
 - Complete selected activities from `15-course-6-activities-and-practice.md`
 - Complete the log-analysis lab in `16-log-analysis-tutorial-data.md`
+- Read `17-python-for-security-automation.md`
+- Complete selected activities from `18-course-7-python-activities.md`
 - Read `09-linux-and-permissions.md`
 - Read `10-sql-for-security-analysis.md`
 - Practice explaining why evidence handling matters
@@ -44,7 +46,7 @@
 | Day 4 | Controls, categories, and NIST frameworks |
 | Day 5 | Compliance regulations and use cases |
 | Day 6 | SIEM, IDS/IPS, EDR, phishing triage, packet analysis, and evidence handling |
-| Day 7 | Networking, Linux permissions, SQL basics, log-analysis practice, Course 6 activity practice, and glossary review |
+| Day 7 | Networking, Linux permissions, SQL basics, log-analysis practice, Course 6 activity practice, Python automation preview, and glossary review |
 
 ## Two-week deeper plan plus response day
 
@@ -65,6 +67,7 @@
 | Day 13 | SQL joins, assets, and risk | Explain joins, classify assets, and score a risk register |
 | Day 14 | Course 5 activities and Botium Toys review | Turn one worksheet into a portfolio artifact and connect findings to business impact |
 | Day 15 | Course 6 detection and response | Complete `15-course-6-activities-and-practice.md`: phishing ticket, hash investigation, Wireshark/tcpdump comparison, Suricata review, journal entry, and final report outline |
+| Day 16 | Course 7 Python automation | Complete `18-course-7-python-activities.md`: data types, conditionals, loops, functions, regex, file parsing, allow-list update, debugging, and portfolio code notes |
 
 ## Course 5 portfolio sprint
 
@@ -106,6 +109,20 @@ Use this sprint with `16-log-analysis-tutorial-data.md`.
 | Vendor sales review | Count code values while masking full account identifiers |
 | Analyst summary | Write scope, evidence, conclusion, and next steps without exposing sensitive raw fields |
 
+## Course 7 Python automation sprint
+
+Use this sprint with `17-python-for-security-automation.md` and `18-course-7-python-activities.md`.
+
+| Sprint task | Output |
+| --- | --- |
+| Python basics | Explain data types, variables, conditionals, loops, and functions with security examples |
+| String/list practice | Normalize usernames, update approved-user lists, and explain indexing/slicing |
+| Regex practice | Extract IP addresses or other indicators from log-like text |
+| File parsing | Read file text, split it into a list, join it back into text, and explain file modes |
+| Allow-list update | Write and explain the full Python algorithm for removing unauthorized IP addresses |
+| Debugging practice | Fix syntax, indentation, type, and logic problems |
+| Portfolio code note | Present code clearly with scenario, algorithm, output, and sensitive-data masking |
+
 ## Interview-ready prompts
 
 - Explain the CIA triad with an example from a real business.
@@ -121,6 +138,10 @@ Use this sprint with `16-log-analysis-tutorial-data.md`.
 - What belongs in an incident handler's journal?
 - How would you search logs for repeated failed SSH login attempts?
 - Why should account identifiers and session IDs be masked before public sharing?
+- How would you automate an allow-list update in Python?
+- What is the difference between a parameter and an argument?
+- How do `.split()` and `.join()` support file parsing?
+- How can regular expressions help security analysts parse log text?
 - Why is least privilege important for reducing insider risk?
 - How would you identify and fix a stale contractor account?
 - How can folder-sharing controls prevent a data leak?

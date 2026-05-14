@@ -220,6 +220,60 @@ This glossary is a curated quick-reference built from the supplied course notes 
 | SQL injection | Attack that executes unexpected database queries |
 | Table | Database structure made of rows and columns |
 
+## Python and automation
+
+| Term | Definition |
+| --- | --- |
+| Algorithm | Set of rules or steps used to solve a problem |
+| Argument (Python) | Value passed into a function when the function is called |
+| Automation | Use of technology to reduce repeated manual effort |
+| Boolean data | Data that can only be `True` or `False` |
+| Bracket notation | Square-bracket syntax used to access an index or slice |
+| Built-in function | Function that already exists in Python |
+| Comment | Note in code that explains intent for human readers |
+| Conditional statement | Code that makes a decision based on conditions |
+| Data type | Category that tells Python what kind of value it is handling |
+| Debugger | Tool that helps locate and inspect code errors |
+| Debugging | Finding and fixing errors in code |
+| Dictionary data | Key-value data structure |
+| Exception | Runtime problem that prevents code from completing even when syntax is valid |
+| File path | Location of a file or directory |
+| Float data | Number with a decimal point |
+| Function | Reusable section of code |
+| Global variable | Variable available throughout a program |
+| Immutable | Cannot be changed after creation |
+| Indentation | Spaces at the beginning of a code line that define structure in Python |
+| Index | Number position of an item in a sequence |
+| Integer data | Whole-number data |
+| Interpreter | Program that runs Python code line by line |
+| Iterative statement | Code that repeats instructions, such as a `for` or `while` loop |
+| Library | Collection of modules that provide reusable code |
+| List concatenation | Combining two lists into one list |
+| List data | Ordered, changeable collection |
+| Local variable | Variable created inside a function |
+| Logic error | Code runs but produces the wrong result |
+| Loop variable | Temporary variable used during loop iterations |
+| Method | Function that belongs to a specific data type |
+| Module | Python file that contains reusable code |
+| Notebook | Interface for writing, running, and explaining code in cells |
+| Parameter (Python) | Name in a function definition that receives an argument |
+| Parsing | Converting data into a more readable or usable format |
+| PEP 8 style guide | Python style guidance for readable, consistent code |
+| Python Standard Library | Collection of modules packaged with Python |
+| Regular expression | Pattern used to search text |
+| Return statement | Statement that sends a value back from a function |
+| Set data | Unordered collection of unique values |
+| String concatenation | Joining strings together |
+| String data | Ordered text data |
+| Style guide | Written guidance for formatting and writing consistently |
+| Substring | Continuous section of a string |
+| Syntax | Rules for correctly structured code |
+| Syntax error | Error caused by invalid language structure |
+| Tuple data | Ordered collection that should not be changed |
+| Type error | Error caused by using an incompatible data type |
+| User-defined function | Function written by the programmer |
+| Variable | Named container that stores data |
+
 ## Assets, data, and vulnerability management
 
 | Term | Definition |

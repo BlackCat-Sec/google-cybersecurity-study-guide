@@ -38,6 +38,11 @@ These are primary or high-value references that match the topics in the study gu
 - IANA Service Name and Port Number Registry: https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
 - IETF RFC Index: https://www.rfc-editor.org/rfc-index.html
 - Wi-Fi Alliance security overview: https://www.wi-fi.org/discover-wi-fi/security
+- Python documentation: https://docs.python.org/3/
+- Python built-in functions: https://docs.python.org/3/library/functions.html
+- Python `re` regular expression documentation: https://docs.python.org/3/library/re.html
+- Python file input/output tutorial: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+- PEP 8 Style Guide for Python Code: https://peps.python.org/pep-0008/
 - Wireshark User's Guide: https://www.wireshark.org/docs/wsug_html/
 - Wireshark Display Filter Reference: https://www.wireshark.org/docs/dfref/
 - tcpdump manual page: https://man7.org/linux/man-pages/man8/tcpdump.8.html
@@ -52,5 +57,6 @@ These are primary or high-value references that match the topics in the study gu
 - Use IANA and RFCs for protocol and port-number source checks.
 - Use NIST SP 800-61 Rev. 3 for current incident-response framing and program guidance.
 - Use Wireshark, tcpdump, VirusTotal, and Suricata documentation when validating tool syntax or behavior.
+- Use Python documentation and PEP 8 when validating Python syntax, built-ins, file handling, regular expressions, and code style.
 - Use regulation pages when you need accurate legal scope.
 - Use CompTIA Security+ as a parallel exam-oriented review path.
